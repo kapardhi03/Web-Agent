@@ -8,7 +8,7 @@ def test_checkbox_interaction(page: Page):
     # Navigate to a site with checkboxes (example using a form site)
     page.goto("https://demoqa.com/checkbox")
     
-    # Find and click a checkbox
+    # Find and click a checkbox 
     checkbox = page.locator("span.rct-checkbox")
     checkbox.click()
     
