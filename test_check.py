@@ -58,5 +58,4 @@ def test_form_with_checkbox_submission(page: Page):
     page.keyboard.press('Enter')
     
     expect(page.locator('div.modal-content')).to_be_visible(timeout=10000)
-    
     print("Successfully submitted form with checkbox selections")
