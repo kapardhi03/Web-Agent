@@ -1,10 +1,38 @@
 # Ignore virtual environments
 env/
-.venv/
+
+# Ignore Python cache files
 __pycache__/
+*.py[cod]
+*.pyo
 
-# Ignore Playwright binaries
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore test artifacts
+*.log
+*.coverage
+
+# Ignore screenshots and other generated media
+*.png
+*.jpg
+*.jpeg
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore built distributions
+build/
+dist/
+*.egg-info/
+
+# Ignore node binaries (from Playwright)
 **/playwright/driver/node
-
-# Python stuff
-*.pyc
