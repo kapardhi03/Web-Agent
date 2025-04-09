@@ -36,3 +36,4 @@ dist/
 
 # Ignore node binaries (from Playwright)
 **/playwright/driver/node
+env/
